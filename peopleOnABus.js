@@ -1,8 +1,7 @@
-var number = function(busStops){
+number = function(busStops){
   var count=0;
   for(i=0;i<busStops.length;i++){
-    count+=busStops[i][0];
-    count-=busStops[i][1];
+    count+=busStops[i][0]-busStops[i][1];
   }
   return count;
 };
