@@ -82,10 +82,10 @@ function doneOrNot(board){
       }
     }
   }
-  return count>0?"Try again!":"Finished!"
+  return count>0?"Try again!":"Finished!";
 }
 
-console.log(doneOrNot([[4, 3, 4, 6, 7, 8, 9, 1, 2],
+console.log(doneOrNot([[5, 3, 4, 6, 7, 8, 9, 1, 2],
                          [6, 7, 2, 1, 9, 5, 3, 4, 8],
                          [1, 9, 8, 3, 4, 2, 5, 6, 7],
                          [8, 5, 9, 7, 6, 1, 4, 2, 3],
