@@ -1,6 +1,6 @@
 Use the function that checks if the sudoku is completed outputting boolean values
 
-The other functions to create to input values into the sukoku are as follows:
+The other functions to create to input values into the sudoku are as follows:
 
 * Single position in box
 
