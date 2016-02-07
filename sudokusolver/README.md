@@ -1,17 +1,16 @@
-Use the function that checks if the sudoku is completed outputting boolean values
+Use sudoku checker function to check if the sudoku is completed outputting boolean values,
+this should be incorporated as a while loop for the sudoku solver function
 
-The other functions to create to input values into the sudoku are as follows:
+Separate functions needed for sudokuSolver function:
 
-* Single position in box
+* Write pencil marks (posNums)
 
-* Single position in row
+* Single number in box found by defNums
 
-* Single position in column
+* Single number in box found by posNums
 
-* Single candidate for a square
+* Single position in row found by both defNums
 
-* Write pencil marks
-
-* Implement pencil marks
+* Single position in column found by both defNums and posNums
 
 * Techniques to cancel out pencil marks
