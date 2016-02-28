@@ -1,0 +1,15 @@
+{
+  "name": "sudokusolver",
+  "version": "1.0.0",
+  "description": "Use sudoku checker function to check if the sudoku is completed outputting boolean values, this should be incorporated as a while loop for the sudoku solver function",
+  "main": "other.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
