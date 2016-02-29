@@ -1,7 +1,3 @@
-function test(x){
-    return x;
-}
-
 function setup(puzzle){
     for(i=0;i<9;i++){
         for(j=0;j<9;j++){
@@ -54,17 +50,6 @@ function solveCol(puzzle){
     return puzzle;
 }
 
-var expected5 = [
-                [5,3,0,0,7,0,0,0,0],
-                [6,0,0,1,9,5,0,0,0],
-                [0,9,8,0,0,0,0,6,0],
-                [8,0,0,0,6,0,0,0,3],
-                [4,0,0,8,0,3,0,0,1],
-                [7,0,0,0,2,0,0,0,6],
-                [0,6,0,0,0,0,2,8,0],
-                [0,0,0,4,1,9,0,0,5],
-                [0,0,0,0,8,0,0,7,9]];
-
 function solveBox(puzzle){
     for(i=0;i<9;i++){
         for(j=0;j<9;j++){
@@ -111,11 +96,9 @@ function isFinished(puzzle){
 
 function sudoku(puz){
     puz = setup(puz);
-    while(isFinished(puz) === false){
+    while(isFinished(puz)===false){
         puz = solveBox(puz);
-        puz = clearArrays(puz);
         puz = solveCol(puz);
-        puz = clearArrays(puz);
         puz = solveRow(puz);
         puz = clearArrays(puz);
     }
@@ -123,7 +106,6 @@ function sudoku(puz){
 }
 
 module.exports = {
-    test: test,
     setup: setup,
     solveRow: solveRow,
     solveCol: solveCol,
