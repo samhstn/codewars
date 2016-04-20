@@ -1,0 +1,9 @@
+1st char
+
+char   = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,? 
+encode = bdfhjlnprtvxzBDFHJLNPRTVXZ13579, acegikmoqsuwyACEGIKMOQSUWY02468.?
+
+2nd char
+
+char   = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,? 
+encode = dhlptxBFJNRVZ37,aeimquyCGKOSW048?bf
